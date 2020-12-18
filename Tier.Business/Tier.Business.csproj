@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tier.DataAccess\Tier.DataAccess.csproj" />
+    <ProjectReference Include="..\Tier.Entities\Tier.Entities.csproj" />
+    <ProjectReference Include="..\Tier.Shared\Tier.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

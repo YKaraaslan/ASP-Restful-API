@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tier.API</name>
+    </assembly>
+    <members>
+        <member name="T:Tier.Api.Controllers.UserController">
+            <summary>
+            User Controller
+            </summary>
+        </member>
+        <member name="M:Tier.Api.Controllers.UserController.#ctor(Tier.Business.Abstract.IUserService)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="userManager"></param>
+        </member>
+        <member name="M:Tier.Api.Controllers.UserController.GetUserByUserName(System.String)">
+            <summary>
+            Use a username to retrieve the user's data.
+            </summary>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Tier.Api.Controllers.UserController.Register(Tier.Shared.RegisterModel)">
+            <summary>
+            Use RegisterModel to register the user.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Tier.Api.Controllers.UserController.Login(Tier.Shared.LoginModel)">
+            <summary>
+            Use LoginModel to log the user in.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
